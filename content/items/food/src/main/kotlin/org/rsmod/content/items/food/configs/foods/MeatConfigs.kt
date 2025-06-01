@@ -56,11 +56,6 @@ internal object MeatObjEdits : ObjEditor() {
             param[params.food_secondary_heal] = 5
         }
 
-        edit(meat_objs.cooked_sunlight_antelope) {
-            contentGroup = content.food
-            param[params.food_heal_value] = 8
-            param[params.food_secondary_heal] = 6
-        }
 
         edit(meat_objs.cooked_kyatt) {
             contentGroup = content.food
