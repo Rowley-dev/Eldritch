@@ -48,6 +48,8 @@
             <option value="$PROJECT_DIR$/api/invtx" />
             <option value="$PROJECT_DIR$/api/market" />
             <option value="$PROJECT_DIR$/api/meta" />
+            <option value="$PROJECT_DIR$/api/music" />
+            <option value="$PROJECT_DIR$/api/music-plugin" />
             <option value="$PROJECT_DIR$/api/net" />
             <option value="$PROJECT_DIR$/api/npc" />
             <option value="$PROJECT_DIR$/api/npc-plugin" />
