@@ -81,8 +81,6 @@ class SpiritTree @Inject constructor() : PluginScript() {
     private fun ProtectedAccess.spiritTreeTeleport(player: Player, coord: CoordGrid) {
         teleport(coord)
         sendTreeChatBoxModal()
-        objboxSetButtons(player, "Click here to continue")
-        ifSetEvents(components.objectbox_pbutton, 0..1, IfEvent.PauseButton)
     }
 
     private fun ProtectedAccess.sendTreeChatBoxOverlay() {
@@ -98,6 +96,8 @@ class SpiritTree @Inject constructor() : PluginScript() {
         ifOpenSub(interfaces.obj_dialogue, components.chatbox_chatmodal, IfSubType.Modal)
         ifSetObj(components.objectbox_item, objs.spirit_tree_dummy, 400)
         ifSetText(components.objectbox_text, TREE_CHATBOX_TEXT)
+        objboxSetButtons(player, "Click here to continue")
+        ifSetEvents(components.objectbox_pbutton, 0..1, IfEvent.PauseButton)
     }
 
     private companion object {
