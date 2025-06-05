@@ -189,4 +189,5 @@ object BaseSynths : SynthReferences() {
     val firesurge_hit = find("firesurge_hit")
     val firesurge_cast_and_fire = find("firesurge_cast_and_fire")
     val toa_shadow_weapon_cast_fire_01 = find("toa_shadow_weapon_cast_fire_01")
+    val amulet_of_glory_synth = find("teleport_all")
 }

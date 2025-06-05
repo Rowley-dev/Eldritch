@@ -202,6 +202,7 @@ object BaseParams : ParamReferences() {
     val next_loc_stage: ParamLoc = find("next_loc_stage")
     val shop_sale_restricted: ParamBool = find("shop_sale_restricted")
     val coord_grid_general: ParamCoord = find("coord_grid_general")
+    val glory_charges: ParamInt = find("glory_charges")
 
     val food_heal_value: ParamInt = find("food_heal_value")
     val food_secondary_heal: ParamInt = find("food_secondary_heal")
@@ -209,6 +210,8 @@ object BaseParams : ParamReferences() {
     val food_overheal: ParamBool = find("food_overheal")
     val food_requires_replacement: ParamBool = find("food_requires_replacement")
     val food_replacement: ParamObj = find("food_replacement")
+
+    val replacement_item_id: ParamInt = find("replacement_item_id")
 
     val boosted_skill1: ParamStat = find("boosted_skill1")
     val boosted_skill2: ParamStat = find("boosted_skill2")

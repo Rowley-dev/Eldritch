@@ -23,12 +23,12 @@ internal object MeatObjs : ObjReferences() {
 
 internal object MeatObjEdits : ObjEditor() {
     init {
-        edit (meat_objs.cooked_chicken) {
+        edit(meat_objs.cooked_chicken) {
             contentGroup = content.food
             param[params.food_heal_value] = 3
         }
 
-        edit (meat_objs.cooked_meat) {
+        edit(meat_objs.cooked_meat) {
             contentGroup = content.food
             param[params.food_heal_value] = 3
         }
@@ -55,7 +55,6 @@ internal object MeatObjEdits : ObjEditor() {
             param[params.food_heal_value] = 7
             param[params.food_secondary_heal] = 5
         }
-
 
         edit(meat_objs.cooked_kyatt) {
             contentGroup = content.food

@@ -133,6 +133,7 @@
             <option value="$PROJECT_DIR$/content/interfaces/skill-guides" />
             <option value="$PROJECT_DIR$/content/items" />
             <option value="$PROJECT_DIR$/content/items/food" />
+            <option value="$PROJECT_DIR$/content/items/jewellery" />
             <option value="$PROJECT_DIR$/content/other" />
             <option value="$PROJECT_DIR$/content/other/commands" />
             <option value="$PROJECT_DIR$/content/other/login" />
@@ -150,7 +151,6 @@
             <option value="$PROJECT_DIR$/content/skills/woodcutting" />
             <option value="$PROJECT_DIR$/content/travel" />
             <option value="$PROJECT_DIR$/content/travel/canoe" />
-            <option value="$PROJECT_DIR$/content/travel/canoe/spirittree" />
             <option value="$PROJECT_DIR$/content/travel/spirittree" />
             <option value="$PROJECT_DIR$/engine" />
             <option value="$PROJECT_DIR$/engine/annotations" />

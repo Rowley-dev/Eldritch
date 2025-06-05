@@ -160,6 +160,8 @@
 1935	spell_maxhit
 
 32000	coord_grid_general
+32001	replacement_item_id
+32002	glory_charges
 
 65386	graceful_restore_rate
 65387	prayer_drain_effect

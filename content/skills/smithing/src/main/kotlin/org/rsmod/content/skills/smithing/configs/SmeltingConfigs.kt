@@ -1,11 +1,11 @@
-//enum class SmeltingData(
+// enum class SmeltingData(
 //    val product: Int,
 //    val primaryOre: Int,
 //    val secondaryOre: Int = Items.COAL,
 //    val secondaryCount: Int = 1,
 //    val levelRequired: Int,
 //    val experience: Double,
-//) {
+// ) {
 //    BRONZE(
 //        product = Items.BRONZE_BAR,
 //        primaryOre = Items.TIN_ORE,
@@ -82,4 +82,4 @@
 //         */
 //        val barDefinitions = values.associate { it.product to it }
 //    }
-//}
+// }

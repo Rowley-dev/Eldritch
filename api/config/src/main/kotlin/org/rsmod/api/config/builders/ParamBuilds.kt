@@ -105,7 +105,10 @@ internal object ParamBuilds : ParamBuilder() {
 
         build<CoordGrid>("coord_grid_general")
 
+        build<Int>("glory_charges")
+
         build<ObjType>("rewarditem")
+        build<Int>("replacement_item_id")
         build<NpcType>("next_npc_stage")
         build<Boolean>("bankside_extraop_conditional_flip") { default = false }
         build<VarBitType>("bankside_extraop_conditional_varbit")
@@ -152,7 +155,6 @@ internal object ParamBuilds : ParamBuilder() {
         build<Int>("boosted_skill1_value")
         build<Int>("boosted_skill2_value")
         build<Int>("boosted_skill3_value")
-
 
         build<StatType>("xpmod_stat")
         build<Int>("xpmod_percent")

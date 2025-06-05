@@ -81,7 +81,6 @@ constructor(
 
         val broadcast = realm.config.loginBroadcast
         broadcast?.let { mes(it, ChatType.Broadcast) }
-
     }
 
     private fun Player.sendVars() {

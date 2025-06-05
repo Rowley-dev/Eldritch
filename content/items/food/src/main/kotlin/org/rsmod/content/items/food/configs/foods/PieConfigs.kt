@@ -17,7 +17,6 @@ import org.rsmod.content.items.food.configs.PIE_BOOST_3
 import org.rsmod.content.items.food.configs.PIE_BOOST_4
 import org.rsmod.content.items.food.configs.PIE_BOOST_5
 
-
 internal typealias pie_objs = PieObjs
 
 internal object PieObjs : ObjReferences() {

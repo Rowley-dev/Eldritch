@@ -50,15 +50,20 @@ fun searchProject(parentName: String, root: Path, currentPath: Path) {
     val projectName = relativePath.toString().replace(File.separator, ":")
     include("$parentName:$projectName")
 }
-include("content:items")
-findProject(":content:items")?.name = "items"
-include("content:items:food")
-findProject(":content:items:food")?.name = "food"
-include("content:skills:smithing")
-findProject(":content:skills:smithing")?.name = "smithing"
-include("content:skills:mining")
-findProject(":content:skills:mining")?.name = "mining"
-include("content:travel:canoe:spirittree")
-findProject(":content:travel:canoe:spirittree")?.name = "spirittree"
-include("content:travel:spirittree")
-findProject(":content:travel:spirittree")?.name = "spirittree"
+//include("content:items")
+//findProject(":content:items")?.name = "items"
+//include("content:items:food")
+//findProject(":content:items:food")?.name = "food"
+//include("content:skills:smithing")
+//findProject(":content:skills:smithing")?.name = "smithing"
+//include("content:skills:mining")
+//findProject(":content:skills:mining")?.name = "mining"
+//include("content:travel:canoe:spirittree")
+//findProject(":content:travel:canoe:spirittree")?.name = "spirittree"
+//include("content:travel:spirittree")
+//findProject(":content:travel:spirittree")?.name = "spirittree"
+//include("content:items:food:jewellery")
+//findProject(":content:items:food:jewellery")?.name = "jewellery"
+//include("content:items:jewellery")
+//findProject(":content:items:jewellery")?.name = "jewellery"
+

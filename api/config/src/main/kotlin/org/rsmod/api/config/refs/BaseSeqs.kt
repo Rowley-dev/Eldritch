@@ -28,6 +28,7 @@ object BaseSeqs : SeqReferences() {
     val milkit = find("milkit", 8837273620997483727)
     val poh_smash_magic_tablet = find("poh_smash_magic_tablet", 2922113110586613810)
     val poh_absorb_tablet_teleport = find("poh_absorb_tablet_teleport", 762546241074929929)
+    val amulet_of_glory_teleport = find("human_castteleport")
 
     val human_caststrike = find("human_caststrike", 615950436437545798)
     val human_castwave = find("human_castwave", 7088060759220814464)

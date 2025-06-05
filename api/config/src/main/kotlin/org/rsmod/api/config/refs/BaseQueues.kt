@@ -25,4 +25,5 @@ object BaseQueues : QueueReferences() {
     val preserve_activation = find("preserve_activation")
     val food_secondary_heal_delay = find("food_secondary_heal_delay")
     val spirit_tree_teleport = find("spirit_tree_teleport")
+    val jewellery_teleport = find("jewellery_teleport")
 }

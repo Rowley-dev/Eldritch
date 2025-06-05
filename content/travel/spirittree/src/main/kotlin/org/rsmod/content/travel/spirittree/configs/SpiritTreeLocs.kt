@@ -45,17 +45,9 @@ object SpiritTree : LocEditor() {
             op2 = "Travel"
             op1 = "Talk-to"
         }
-        edit(spirit_tree_locs.spirittree_prif_1op) {
-            contentGroup = content.spirit_tree
-        }
-        edit(spirit_tree_locs.spirittree_prif_2ops) {
-            contentGroup = content.spirit_tree
-        }
-        edit(spirit_tree_locs.spirittree_prif) {
-            contentGroup = content.spirit_tree
-        }
-        edit(spirit_tree_locs.spirittree_pog) {
-            contentGroup = content.spirit_tree
-        }
+        edit(spirit_tree_locs.spirittree_prif_1op) { contentGroup = content.spirit_tree }
+        edit(spirit_tree_locs.spirittree_prif_2ops) { contentGroup = content.spirit_tree }
+        edit(spirit_tree_locs.spirittree_prif) { contentGroup = content.spirit_tree }
+        edit(spirit_tree_locs.spirittree_pog) { contentGroup = content.spirit_tree }
     }
 }

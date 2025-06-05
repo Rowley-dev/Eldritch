@@ -336,9 +336,12 @@ public class ProtectedAccess(
         PathingEntityCommon.teleport(player, collision, dest)
     }
 
+
     public fun teleport(dest: CoordGrid) {
         teleport(dest, context.collision)
     }
+
+
 
     /**
      * Starts an `exactmove` sequence from [start] to [end].
