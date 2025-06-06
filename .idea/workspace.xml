@@ -566,37 +566,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a5f4dc-42be-4d65-930d-5e9377798732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/configs/AmuletOfGloryLocations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/configs/AmuletOfGloryObjs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/configs/SpiritTreeNpcs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/configs/SpiritTreeObjs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/symbols/content.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/content.sym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/symbols/param.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/param.sym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/symbols/queue.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/queue.sym" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/ParamBuilds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/ParamBuilds.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseContent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseContent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseNpcs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseNpcs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseObjs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseObjs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseParams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseQueues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseQueues.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseSeqs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseSeqs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseSynths.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseSynths.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/player/src/main/kotlin/org/rsmod/api/player/protect/ProtectedAccess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/player/src/main/kotlin/org/rsmod/api/player/protect/ProtectedAccess.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/items/food/src/main/kotlin/org/rsmod/content/items/food/configs/foods/MeatConfigs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/food/src/main/kotlin/org/rsmod/content/items/food/configs/foods/MeatConfigs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/items/food/src/main/kotlin/org/rsmod/content/items/food/configs/foods/PieConfigs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/food/src/main/kotlin/org/rsmod/content/items/food/configs/foods/PieConfigs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/other/login/src/main/kotlin/org/rsmod/content/other/login/LoginScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/login/src/main/kotlin/org/rsmod/content/other/login/LoginScript.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/skills/smithing/src/main/kotlin/org/rsmod/content/skills/smithing/configs/SmeltingConfigs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/smithing/src/main/kotlin/org/rsmod/content/skills/smithing/configs/SmeltingConfigs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/configs/SpiritTreeCommons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/configs/SpiritTreeCommons.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/configs/SpiritTreeLocs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/configs/SpiritTreeLocs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/scripts/SpiritTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/travel/spirittree/src/main/kotlin/org/rsmod/content/travel/spirittree/scripts/SpiritTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/configs/AmuletOfGloryObjs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/configs/AmuletOfGloryObjs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
