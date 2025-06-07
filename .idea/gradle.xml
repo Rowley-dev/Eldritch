@@ -112,6 +112,7 @@
             <option value="$PROJECT_DIR$/content" />
             <option value="$PROJECT_DIR$/content/areas" />
             <option value="$PROJECT_DIR$/content/areas/city" />
+            <option value="$PROJECT_DIR$/content/areas/city/edgeville" />
             <option value="$PROJECT_DIR$/content/areas/city/lumbridge" />
             <option value="$PROJECT_DIR$/content/areas/misc" />
             <option value="$PROJECT_DIR$/content/areas/misc/multiways" />

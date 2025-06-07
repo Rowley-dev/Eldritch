@@ -1,0 +1,399 @@
+[[spawn]]
+npc = 'ramunsheeredshaggy'
+coords = '0_47_54_44_60'
+
+[[spawn]]
+npc = 'monk'
+coords = '0_47_54_37_28'
+
+[[spawn]]
+npc = 'monk'
+coords = '0_47_54_37_41'
+
+[[spawn]]
+npc = 'monk'
+coords = '0_47_54_42_35'
+
+[[spawn]]
+npc = 'monk'
+coords = '0_47_54_46_35'
+
+[[spawn]]
+npc = 'monk'
+coords = '1_47_54_37_36'
+
+[[spawn]]
+npc = 'monk'
+coords = '1_47_54_48_41'
+
+[[spawn]]
+npc = 'mcannonguard'
+coords = '0_47_54_7_3'
+
+[[spawn]]
+npc = 'mcannonguard'
+coords = '0_47_54_10_0'
+
+[[spawn]]
+npc = 'mcannonguard'
+coords = '0_47_54_19_1'
+
+[[spawn]]
+npc = 'fortressguard_01'
+coords = '0_47_54_0_61'
+
+[[spawn]]
+npc = 'fortressguard_02'
+coords = '0_47_54_5_59'
+
+[[spawn]]
+npc = 'fortressguard_03'
+coords = '0_47_54_7_58'
+
+[[spawn]]
+npc = 'fortressguard_04'
+coords = '0_47_54_8_57'
+
+[[spawn]]
+npc = 'fortressguard_02'
+coords = '0_47_54_9_58'
+
+[[spawn]]
+npc = 'fortressguard_03'
+coords = '0_47_54_10_60'
+
+[[spawn]]
+npc = 'fai_dwarf_worker_08'
+coords = '0_47_54_15_2'
+
+[[spawn]]
+npc = 'fai_dwarf_worker_07'
+coords = '0_47_54_1_2'
+
+[[spawn]]
+npc = 'fai_dwarf_worker_06'
+coords = '0_47_54_22_8'
+
+[[spawn]]
+npc = 'fai_dwarf_worker_05'
+coords = '0_47_54_16_7'
+
+[[spawn]]
+npc = 'kr_aggressive_black_knight'
+coords = '0_47_54_8_60'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '0_47_54_15_61'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '0_47_54_19_56'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '0_47_54_21_61'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '0_47_54_22_46'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '0_47_54_24_47'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '1_47_54_15_60'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '1_47_54_16_54'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '2_47_54_6_60'
+
+[[spawn]]
+npc = 'aggressive_black_knight'
+coords = '2_47_54_18_51'
+
+[[spawn]]
+npc = 'aggressive_black_knight_f'
+coords = '0_47_54_14_57'
+
+[[spawn]]
+npc = 'aggressive_black_knight_f'
+coords = '0_47_54_20_58'
+
+[[spawn]]
+npc = 'aggressive_black_knight_f'
+coords = '0_47_54_23_46'
+
+[[spawn]]
+npc = 'aggressive_black_knight_f'
+coords = '1_47_54_7_59'
+
+[[spawn]]
+npc = 'aggressive_black_knight_f'
+coords = '1_47_54_15_56'
+
+[[spawn]]
+npc = 'aggressive_black_knight_f'
+coords = '2_47_54_15_58'
+
+[[spawn]]
+npc = 'fortwitch'
+coords = '0_47_54_19_50'
+
+[[spawn]]
+npc = 'sheepunsheeredshaggy2'
+coords = '0_47_54_42_62'
+
+[[spawn]]
+npc = 'sheepunsheeredshaggy'
+coords = '0_47_54_44_63'
+
+[[spawn]]
+npc = 'sheepunsheeredshaggy2'
+coords = '0_47_54_46_61'
+
+[[spawn]]
+npc = 'oziach'
+coords = '0_47_54_61_61'
+
+[[spawn]]
+npc = 'oracle'
+coords = '0_47_54_5_45'
+
+[[spawn]]
+npc = 'questscorpionc'
+coords = '1_47_54_50_32'
+
+[[spawn]]
+npc = 'greldo'
+coords = '0_47_54_22_49'
+
+[[spawn]]
+npc = 'secret_ghost6'
+coords = '1_47_54_44_40'
+
+[[spawn]]
+npc = 'brother_jered'
+coords = '1_47_54_38_32'
+
+[[spawn]]
+npc = 'brother_althric'
+coords = '0_47_54_41_51'
+
+[[spawn]]
+npc = 'grillknight'
+coords = '0_47_54_20_52'
+
+[[spawn]]
+npc = 'bkf_cat'
+coords = '0_47_54_20_49'
+
+[[spawn]]
+npc = 'abbot_langley'
+coords = '0_47_54_50_28'
+
+[[spawn]]
+npc = 'rat'
+coords = '0_48_54_47_29'
+
+[[spawn]]
+npc = 'rat'
+coords = '0_48_54_50_31'
+
+[[spawn]]
+npc = 'rat'
+coords = '0_48_54_53_29'
+
+[[spawn]]
+npc = 'surok_outlaw9'
+coords = '0_48_54_44_17'
+
+[[spawn]]
+npc = 'surok_outlaw8'
+coords = '0_48_54_45_21'
+
+[[spawn]]
+npc = 'surok_outlaw10'
+coords = '0_48_54_46_14'
+
+[[spawn]]
+npc = 'surok_outlaw1'
+coords = '0_48_54_46_18'
+
+[[spawn]]
+npc = 'surok_outlaw2'
+coords = '0_48_54_47_16'
+
+[[spawn]]
+npc = 'surok_outlaw7'
+coords = '0_48_54_47_21'
+
+[[spawn]]
+npc = 'surok_outlaw3'
+coords = '0_48_54_49_15'
+
+[[spawn]]
+npc = 'surok_outlaw4'
+coords = '0_48_54_51_17'
+
+[[spawn]]
+npc = 'surok_outlaw6'
+coords = '0_48_54_51_21'
+
+[[spawn]]
+npc = 'surok_outlaw5'
+coords = '0_48_54_52_20'
+
+[[spawn]]
+npc = 'man2'
+coords = '0_48_54_28_55'
+
+[[spawn]]
+npc = 'man3'
+coords = '0_48_54_20_54'
+
+[[spawn]]
+npc = 'man3'
+coords = '0_48_54_25_52'
+
+[[spawn]]
+npc = 'man3'
+coords = '0_48_54_29_53'
+
+[[spawn]]
+npc = 'man'
+coords = '0_48_54_21_56'
+
+[[spawn]]
+npc = 'man'
+coords = '0_48_54_25_56'
+
+[[spawn]]
+npc = 'man'
+coords = '0_48_54_28_53'
+
+[[spawn]]
+npc = 'wgs_silif_darksquall_cell_armour'
+coords = '0_48_54_50_27'
+
+[[spawn]]
+npc = 'imp'
+coords = '0_48_54_1_42'
+
+[[spawn]]
+npc = 'imp'
+coords = '0_48_54_6_5'
+
+[[spawn]]
+npc = 'imp'
+coords = '0_48_54_6_43'
+
+[[spawn]]
+npc = 'imp'
+coords = '0_48_54_62_31'
+
+[[spawn]]
+npc = 'guard1_f_variant01'
+coords = '0_48_54_42_61'
+
+[[spawn]]
+npc = 'guard1_f'
+coords = '0_48_54_13_62'
+
+[[spawn]]
+npc = 'guard1_f'
+coords = '0_48_54_42_56'
+
+[[spawn]]
+npc = 'guard1_variant01'
+coords = '0_48_54_37_57'
+
+[[spawn]]
+npc = 'guard1'
+coords = '0_48_54_21_62'
+
+[[spawn]]
+npc = 'guard1'
+coords = '0_48_54_38_59'
+
+[[spawn]]
+npc = 'giantspider1'
+coords = '0_48_54_59_30'
+
+[[spawn]]
+npc = 'giantspider1'
+coords = '0_48_54_62_27'
+
+[[spawn]]
+npc = 'giantspider1'
+coords = '0_48_54_63_31'
+
+[[spawn]]
+npc = 'generalshopkeeper5'
+coords = '0_48_54_8_55'
+
+[[spawn]]
+npc = 'generalassistant5'
+coords = '0_48_54_9_55'
+
+[[spawn]]
+npc = 'wilderness_capeseller_6'
+coords = '0_48_54_27_63'
+
+[[spawn]]
+npc = 'lost_property_merchant_combatty'
+coords = '0_48_54_18_38'
+
+[[spawn]]
+npc = 'lost_property_merchant_standard'
+coords = '1_48_54_8_57'
+
+[[spawn]]
+npc = 'bim_marley_edge'
+coords = '0_48_54_16_15'
+
+[[spawn]]
+npc = 'diary_rabbit'
+coords = '0_48_54_49_62'
+
+[[spawn]]
+npc = 'lesser_fanatic_diary'
+coords = '0_48_54_49_61'
+
+[[spawn]]
+npc = 'slayer_master_7'
+coords = '0_48_54_37_60'
+
+[[spawn]]
+npc = 'canoeing_hari'
+coords = '0_48_54_61_53'
+
+[[spawn]]
+npc = 'emblem_trader'
+coords = '0_48_54_24_48'
+
+[[spawn]]
+npc = 'hundred_dave_mum'
+coords = '0_48_54_7_36'
+
+[[spawn]]
+npc = 'banker2'
+coords = '0_48_54_24_35'
+
+[[spawn]]
+npc = 'banker2'
+coords = '0_48_54_24_36'
+
+[[spawn]]
+npc = 'banker1'
+coords = '0_48_54_24_33'
+
+[[spawn]]
+npc = 'banker1'
+coords = '0_48_54_26_36'

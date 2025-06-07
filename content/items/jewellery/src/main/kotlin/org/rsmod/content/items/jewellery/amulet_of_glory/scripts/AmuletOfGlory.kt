@@ -75,7 +75,7 @@ class AmuletOfGlory @Inject constructor(
         )
 
         queueJewelleryTeleport(delay = 5, selection, item)
-        delay(4)
+        delay(5)
         if (!type.isType(amulets_of_glory.amulet_of_glory_eternal)) {
             replaceJewelleryInventory(type, invSlot)
         }

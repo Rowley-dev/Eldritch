@@ -6,6 +6,7 @@ typealias areas = BaseAreas
 
 object BaseAreas : AreaReferences() {
     val lumbridge = find("lumbridge")
+    val edgeville = find("edgeville")
     val singles_plus = find("singles_plus")
     val multiway = find("multiway")
 }

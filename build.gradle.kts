@@ -106,6 +106,8 @@ fun getArgsFromProperty(propertyName: String): List<String> {
     return argsProp?.toString()?.split(" ") ?: emptyList()
 }
 repositories {
+    mavenLocal()
+    maven("https://repo.openrs2.org/releases")
     mavenCentral()
 }
 kotlin {

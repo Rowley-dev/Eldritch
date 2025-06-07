@@ -5,6 +5,7 @@ import org.rsmod.api.type.builders.area.AreaBuilder
 internal object AreaBuilds : AreaBuilder() {
     init {
         build("lumbridge")
+        build("edgeville")
         build("singles_plus")
         build("multiway")
     }

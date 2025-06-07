@@ -566,10 +566,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a5f4dc-42be-4d65-930d-5e9377798732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/JewelleryCommons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/kotlin/org/rsmod/content/areas/city/lumbridge/EdgevilleScript.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/kotlin/org/rsmod/content/areas/city/lumbridge/map/EdgevilleMapAreas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/kotlin/org/rsmod/content/areas/city/lumbridge/map/EdgevilleNpcSpawns.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/resources/org.rsmod.content.areas.city.edgeville/npcs.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/area.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/area.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/configs/AmuletOfGloryObjs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/configs/AmuletOfGloryObjs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/AreaBuilds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/AreaBuilds.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseAreas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseAreas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -616,18 +625,13 @@
                 <item name="rsmod" type="f1a62948:ProjectNode" />
                 <item name="rsmod" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="cache" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="build-logic" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="build-logic" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="rsmod" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -640,9 +644,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Kotlin Object" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -749,7 +753,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="rsmod [:build-logic:validatePlugins]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="rsmod [downloadCache]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -760,7 +764,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":build-logic:validatePlugins" />
+            <option value="downloadCache" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -771,7 +775,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="rsmod [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="rsmod [packCache]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -782,7 +786,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="assemble" />
+            <option value="packCache" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -818,10 +822,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.rsmod [run]" />
+        <item itemvalue="Gradle.rsmod [packCache]" />
+        <item itemvalue="Gradle.rsmod [downloadCache]" />
         <item itemvalue="Gradle.rsmod [:build-logic:pluginUnderTestMetadata]" />
         <item itemvalue="Gradle.rsmod [:build-logic:pluginDescriptors]" />
-        <item itemvalue="Gradle.rsmod [:build-logic:validatePlugins]" />
-        <item itemvalue="Gradle.rsmod [assemble]" />
       </list>
     </recent_temporary>
   </component>
