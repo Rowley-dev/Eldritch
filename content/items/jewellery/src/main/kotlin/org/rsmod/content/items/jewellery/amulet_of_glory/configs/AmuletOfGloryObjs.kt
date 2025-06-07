@@ -41,6 +41,7 @@ object AmuletOfGloryObjs : ObjReferences() {
     val trail_amulet_of_glory_2 = find("trail_amulet_of_glory_2")
     val trail_amulet_of_glory_1 = find("trail_amulet_of_glory_1")
     val amulet_of_glory_uncharged = find("amulet_of_glory")
+    val trail_amulet_of_glory_uncharged = find("trail_amulet_of_glory")
 }
 
 
@@ -55,6 +56,7 @@ internal object AmuletOfGloryObjEdits : ObjEditor() {
         glory(amulets_of_glory.amulet_of_glory_eternal)
 
         unchargedGlory(amulets_of_glory.amulet_of_glory_uncharged)
+        unchargedGlory(amulets_of_glory.trail_amulet_of_glory_uncharged)
 
         trimmedGlory(amulets_of_glory.trail_amulet_of_glory_6)
         trimmedGlory(amulets_of_glory.trail_amulet_of_glory_5)
