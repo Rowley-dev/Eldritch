@@ -30,6 +30,7 @@ import org.rsmod.api.player.output.ClientScripts.confirmOverlayInit
 import org.rsmod.api.player.output.ClientScripts.ifSetTextAlign
 import org.rsmod.api.player.output.ClientScripts.menu
 import org.rsmod.api.player.output.ClientScripts.objboxSetButtons
+import org.rsmod.api.player.output.ClientScripts.skillMultiInit
 import org.rsmod.api.player.output.ClientScripts.topLevelChatboxResetBackground
 import org.rsmod.api.player.output.ClientScripts.topLevelMainModalBackground
 import org.rsmod.api.player.output.ClientScripts.topLevelMainModalOpen
@@ -521,6 +522,44 @@ internal fun Player.ifMenu(
     ifOpenMainModal(interfaces.menu, eventBus)
     menu(this, title, joinedChoices, hotkeys)
     ifSetEvents(components.menu_list, 0..127, IfEvent.PauseButton)
+}
+
+internal fun Player.ifSkillMultiSelect(
+    quantitySelectionOptions: Int,
+    title: String,
+    maximumQuantity: Int,
+    ObjType1Id: Int? = -1,
+    ObjType2Id: Int? = -1,
+    ObjType3Id: Int? = -1,
+    ObjType4Id: Int? = -1,
+    ObjType5Id: Int? = -1,
+    ObjType6Id: Int? = -1,
+    ObjType7Id: Int? = -1,
+    ObjType8Id: Int? = -1,
+    ObjType9Id: Int? = -1,
+    ObjType10Id: Int? = -1,
+    defaultQuantity: Int,
+    eventBus: EventBus,
+) {
+    skillMultiInit(this,
+        quantitySelectionOptions,
+        title,
+        maximumQuantity,
+        ObjType1Id,
+        ObjType2Id,
+        ObjType3Id,
+        ObjType4Id,
+        ObjType5Id,
+        ObjType6Id,
+        ObjType7Id,
+        ObjType8Id,
+        ObjType9Id,
+        ObjType10Id,
+        defaultQuantity,
+    )
+    ifOpenSub(interfaces.skillmulti, components.chatbox_chatmodal, IfSubType.Modal, eventBus)
+    ifSetEvents(components.skillmulti_a, 0..quantitySelectionOptions, IfEvent.PauseButton)
+//        return resumeWithMainModalProtectedAccess(input.subcomponent.absoluteValue, modal)
 }
 
 /** @see [chatboxMultiInit] */

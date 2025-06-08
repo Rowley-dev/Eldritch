@@ -216,6 +216,28 @@ public object ClientScripts {
         )
     }
 
+    public fun skillMultiInit(
+        player: Player,
+        amountOptions: Int,
+        title: String,
+        maximumQuantity: Int,
+        obj1: Int? = -1,
+        obj2: Int? = -1,
+        obj3: Int? = -1,
+        obj4: Int? = -1,
+        obj5: Int? = -1,
+        obj6: Int? = -1,
+        obj7: Int? = -1,
+        obj8: Int? = -1,
+        obj9: Int? = -1,
+        obj10: Int? = -1,
+        int3: Int,
+        ) {
+        player.runClientScript(2046, amountOptions, title, maximumQuantity, obj1 ?: -1, obj2 ?: -1, obj3 ?: -1, obj4 ?: -1,
+            obj5 ?: -1, obj6 ?: -1, obj7 ?: -1, obj8 ?: -1, obj9 ?: -1, obj10 ?: -1, int3)
+
+    }
+
     public fun confirmDestroyInit(
         player: Player,
         header: String,

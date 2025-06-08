@@ -57,6 +57,8 @@ object BaseInterfaces : InterfaceReferences() {
     val destroy_obj_dialogue = find("confirmdestroy", 923450919)
     val menu = find("menu", 130230041)
 
+    val skillmulti = find("skillmulti")
+
     val popupoverlay = find("popupoverlay", 9223372035707796330)
     val ge_collection_box = find("ge_collect", 9223372036801773648)
     val ca_overview = find("ca_overview", 9223372035062537910)

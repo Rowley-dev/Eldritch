@@ -110,6 +110,7 @@ import org.rsmod.api.player.ui.ifSetNpcHead
 import org.rsmod.api.player.ui.ifSetObj
 import org.rsmod.api.player.ui.ifSetPlayerHead
 import org.rsmod.api.player.ui.ifSetText
+import org.rsmod.api.player.ui.ifSkillMultiSelect
 import org.rsmod.api.player.vars.VarPlayerIntMapDelegate
 import org.rsmod.api.player.vars.resyncVar
 import org.rsmod.api.player.vars.setActiveMoveSpeed
@@ -2743,6 +2744,7 @@ public class ProtectedAccess(
         player.ifChatNpcSpecific(title, type, pgText, chatanim, "", lineHeight, context.eventBus)
     }
 
+
     /**
      * @throws ProtectedAccessLostException if the player could not retain protected access after
      *   the coroutine suspension.
@@ -2867,6 +2869,38 @@ public class ProtectedAccess(
         require(choices.size < 128) { "Can only have up to 127 `choices`. (size=${choices.size})" }
         player.ifMenu(title, choices.joinToString("|"), hotkeys, context.eventBus)
         val modal = player.ui.getModalOrNull(components.mainmodal)
+        val input = coroutine.pause(ResumePauseButtonInput::class)
+        chatDefaultRestoreInput(player)
+        return resumeWithMainModalProtectedAccess(input.subcomponent.absoluteValue, modal)
+    }
+
+    public suspend fun skillMultiSelect(
+        title: String,
+        quantitySelectionOptions: Int,
+        maximumQuantity: Int,
+        choices: List<ObjType>,
+        defaultQuantity: Int,
+    ): Int {
+        require(choices.size <= 10) { "Can only have up to 10 `choices`. (size=${choices.size})" }
+        val choiceNames = choices.map { ocName(it) }
+        mes(choiceNames.joinToString("|"))
+        val hoverNames = choiceNames.joinToString("|")
+        val title = "$title|$hoverNames"
+        val obj1 = choices.getOrNull(0)?.id
+        val obj2 = choices.getOrNull(1)?.id
+        val obj3 = choices.getOrNull(2)?.id
+        val obj4 = choices.getOrNull(3)?.id
+        val obj5 = choices.getOrNull(4)?.id
+        val obj6 = choices.getOrNull(5)?.id
+        val obj7 = choices.getOrNull(6)?.id
+        val obj8 = choices.getOrNull(7)?.id
+        val obj9 = choices.getOrNull(8)?.id
+        val obj10 = choices.getOrNull(9)?.id
+
+        player.ifSkillMultiSelect(
+            quantitySelectionOptions, title, maximumQuantity,
+            obj1, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9, obj10, defaultQuantity, context.eventBus)
+        val modal = player.ui.getModalOrNull(components.skillmulti_universe)
         val input = coroutine.pause(ResumePauseButtonInput::class)
         chatDefaultRestoreInput(player)
         return resumeWithMainModalProtectedAccess(input.subcomponent.absoluteValue, modal)
@@ -3451,8 +3485,9 @@ public class ProtectedAccess(
     }
 
     public fun ocName(type: ObjType): String {
-        return context.objTypes[type].name
+        return context.objTypes[type].name ?: ""
     }
+
 
     public fun <T : Any> ocParam(obj: InvObj, type: ParamType<T>): T {
         return context.objTypes[obj].param(type)

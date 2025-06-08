@@ -19,7 +19,6 @@ internal object ArrowObjs : ObjReferences() {
     val dragon_arrows = find("dragon_arrow")
     val broad_arrows = find("slayer_broad_arrows")
     val amethyst_arrows = find("amethyst_arrow")
-    val wolfbone_arrows = find("wolfbone_arrow")
 
     val headless_arrows = find("headless_arrow")
 
