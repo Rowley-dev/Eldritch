@@ -35,6 +35,7 @@ object BaseObjs : ObjReferences() {
     val newcomer_map = find("newcomer_map")
     val sos_security_book = find("sos_security_book")
     val wool = find("wool")
+    val feather = find("feather")
 
     val cabbage = find("cabbage")
     val onion = find("onion")

@@ -566,18 +566,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a5f4dc-42be-4d65-930d-5e9377798732" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/kotlin/org/rsmod/content/areas/city/lumbridge/EdgevilleScript.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/kotlin/org/rsmod/content/areas/city/lumbridge/map/EdgevilleMapAreas.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/kotlin/org/rsmod/content/areas/city/lumbridge/map/EdgevilleNpcSpawns.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/areas/city/edgeville/src/main/resources/org.rsmod.content.areas.city.edgeville/npcs.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.data/symbols/area.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/area.sym" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/FletchingCommons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/ArrowCreate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/ArrowData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/HeadlessArrow.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/AreaBuilds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/AreaBuilds.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseAreas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseAreas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/items/jewellery/src/main/kotlin/org/rsmod/content/items/jewellery/amulet_of_glory/scripts/AmuletOfGlory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseObjs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseObjs.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -609,30 +606,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="rsmod" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="rsmod" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="rsmod" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="rsmod" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="cache" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="rsmod" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -644,9 +617,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Kotlin Object" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
-        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -667,41 +640,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build rsmod.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.items [buildDependents].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.items [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [:build-logic:pluginDescriptors].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [:build-logic:pluginUnderTestMetadata].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [:build-logic:validatePlugins].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [assemble].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [buildDependents].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [buildNeeded].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [downloadCache].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [formatCode].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [packCache].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [run].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.rsmod [wrapper].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mxcha/OneDrive/Documents/GitHub/rsmod/content/items&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build rsmod.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.items [buildDependents].executor": "Run",
+    "Gradle.items [build].executor": "Run",
+    "Gradle.rsmod [:build-logic:pluginDescriptors].executor": "Run",
+    "Gradle.rsmod [:build-logic:pluginUnderTestMetadata].executor": "Run",
+    "Gradle.rsmod [:build-logic:validatePlugins].executor": "Run",
+    "Gradle.rsmod [assemble].executor": "Run",
+    "Gradle.rsmod [buildDependents].executor": "Run",
+    "Gradle.rsmod [buildNeeded].executor": "Run",
+    "Gradle.rsmod [downloadCache].executor": "Run",
+    "Gradle.rsmod [formatCode].executor": "Run",
+    "Gradle.rsmod [packCache].executor": "Run",
+    "Gradle.rsmod [run].executor": "Run",
+    "Gradle.rsmod [wrapper].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/chandler/Documents/GitHub/rsmod",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="org.rsmod.content.items.food.configs.foods" />

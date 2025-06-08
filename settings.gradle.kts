@@ -68,3 +68,5 @@ fun searchProject(parentName: String, root: Path, currentPath: Path) {
 //findProject(":content:items:jewellery")?.name = "jewellery"
 include("content:areas:city:edgeville")
 findProject(":content:areas:city:edgeville")?.name = "edgeville"
+
+include("content:skills:fletching")

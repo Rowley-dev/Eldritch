@@ -16,6 +16,7 @@
           </compositeBuild>
         </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -145,6 +146,7 @@
             <option value="$PROJECT_DIR$/content/skills" />
             <option value="$PROJECT_DIR$/content/skills/cooking" />
             <option value="$PROJECT_DIR$/content/skills/fishing" />
+            <option value="$PROJECT_DIR$/content/skills/fletching" />
             <option value="$PROJECT_DIR$/content/skills/magic" />
             <option value="$PROJECT_DIR$/content/skills/magic/spell-attacks" />
             <option value="$PROJECT_DIR$/content/skills/mining" />
@@ -177,6 +179,7 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/content/items" />
+        <option name="gradleJvm" value="11" />
       </GradleProjectSettings>
     </option>
   </component>
