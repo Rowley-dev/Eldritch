@@ -83,6 +83,7 @@ object BaseComponents : ComponentReferences() {
     val menu_list = find("menu:lj_layer1", 5050712558646226874)
     val skillmulti_universe = find("skillmulti:universe")
     val skillmulti_a = find("skillmulti:a")
+    val skillmulti_quanities = find("skillmulti:quantities")
 
     val inv_items = find("inventory:items", 2716382361977651445)
 

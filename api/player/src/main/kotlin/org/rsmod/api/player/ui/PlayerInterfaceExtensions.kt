@@ -557,9 +557,9 @@ internal fun Player.ifSkillMultiSelect(
         ObjType10Id,
         defaultQuantity,
     )
-    ifOpenSub(interfaces.skillmulti, components.chatbox_chatmodal, IfSubType.Modal, eventBus)
-    ifSetEvents(components.skillmulti_a, 0..quantitySelectionOptions, IfEvent.PauseButton)
-//        return resumeWithMainModalProtectedAccess(input.subcomponent.absoluteValue, modal)
+    ifOpenOverlay(interfaces.skillmulti, components.chatbox_chatmodal, eventBus)
+    ifSetEvents(components.skillmulti_quanities, 1..quantitySelectionOptions, IfEvent.PauseButton)
+    ifSetEvents(components.skillmulti_a, 0..10, IfEvent.PauseButton)
 }
 
 /** @see [chatboxMultiInit] */

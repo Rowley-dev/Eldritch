@@ -41,6 +41,8 @@ object BaseVarps : VarpReferences() {
     val settings_tracking = find("settings_tracking", 648034597)
     val chat_filter_assist = find("chat_filter_assist", 239468797)
 
+    val skillmulti_previousselection = find("skillmulti_previousselection")
+
     val cookquest = find("cookquest", 6586291)
     val doricquest = find("doricquest", 7040253)
     val haunted = find("haunted", 7267234)
