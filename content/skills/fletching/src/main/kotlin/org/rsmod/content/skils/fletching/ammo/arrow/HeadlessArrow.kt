@@ -75,7 +75,8 @@ class HeadlessArrow : PluginScript() {
         if (setsToMake == null) return
         player.skillMultiPreviousSelection = setsToMake
         repeat(setsToMake) {
-            queue(queues.make_item, 2, first to second)
+            if (!)
+            weakQueue(queues.make_item, 2, first to second)
         }
     }
 
@@ -85,6 +86,7 @@ class HeadlessArrow : PluginScript() {
         invAdd(inv, headless_arrow_objs.headless_arrow, 15)
         anim(headless_arrow_seqs.human_fletching_add_feather)
         player.statAdvance(stats.fletching, 15.0)
+
 
     }
 }

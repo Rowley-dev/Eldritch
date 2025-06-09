@@ -58,4 +58,5 @@ object BaseContent : ContentReferences() {
     val spirit_tree = find("spirit_tree")
     val amulet_of_glory = find("amulet_of_glory")
     val amulet_of_glory_uncharged = find("amulet_of_glory_uncharged")
+    val fletching_arrowhead = find("fletching_arrowhead")
 }

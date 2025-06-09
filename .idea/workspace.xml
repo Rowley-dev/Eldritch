@@ -566,9 +566,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a5f4dc-42be-4d65-930d-5e9377798732" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.data/symbols/queue.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/queue.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/content.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/content.sym" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseQueues.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseQueues.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseContent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseContent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/ArrowCreate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/ArrowCreate.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/HeadlessArrow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/HeadlessArrow.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
