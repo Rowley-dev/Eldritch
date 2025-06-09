@@ -557,7 +557,7 @@ internal fun Player.ifSkillMultiSelect(
         ObjType10Id,
         defaultQuantity,
     )
-    ifOpenOverlay(interfaces.skillmulti, components.chatbox_chatmodal, eventBus)
+    ifOpenSub(interfaces.skillmulti, components.chatbox_chatmodal, IfSubType.Modal, eventBus)
     ifSetEvents(components.skillmulti_quanities, 1..quantitySelectionOptions, IfEvent.PauseButton)
     ifSetEvents(components.skillmulti_a, 0..10, IfEvent.PauseButton)
 }
