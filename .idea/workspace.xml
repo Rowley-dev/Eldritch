@@ -566,12 +566,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a5f4dc-42be-4d65-930d-5e9377798732" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/VarpBuilds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/builders/VarpBuilds.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseComponents.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseComponents.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseVarps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseVarps.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/player/src/main/kotlin/org/rsmod/api/player/ui/PlayerInterfaceExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/player/src/main/kotlin/org/rsmod/api/player/ui/PlayerInterfaceExtensions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/HeadlessArrow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/fletching/src/main/kotlin/org/rsmod/content/skils/fletching/ammo/arrow/HeadlessArrow.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
