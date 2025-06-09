@@ -5,6 +5,6 @@ import org.rsmod.content.areas.city.lumbridge.EdgevilleScript
 
 object EdgevilleNpcSpawns : MapNpcSpawnBuilder() {
     override fun onPackMapTask() {
-        resourceFile<EdgevilleScript>("org.rsmod.content.areas.city.edgeville/npcs.toml")
+        resourceFile<EdgevilleScript>("npcs.toml")
     }
 }
