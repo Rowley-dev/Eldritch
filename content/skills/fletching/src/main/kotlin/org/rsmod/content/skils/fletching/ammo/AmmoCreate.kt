@@ -93,12 +93,12 @@ class AmmoCreate @Inject constructor(private val xpMods: XpModifiers) : PluginSc
             defaultQuantity = player.skillMultiPreviousSelection,
         )
 
-        weakQueue(queues.make_item, 1, Triple(setsToMake, ammo, secondary))
+        weakQueue(queues.fletch_ammo, 1, Triple(setsToMake, ammo, secondary))
     }
 
     private fun ProtectedAccess.createArrow(triple: Triple<Int, UnpackedObjType, UnpackedObjType>) {
         val (setsToMake, ammo, secondary) = triple
-        clearQueue(queues.make_item)
+        clearQueue(queues.fletch_ammo)
 
         if (!canFletch(ammo, secondary)) return
 
@@ -117,7 +117,7 @@ class AmmoCreate @Inject constructor(private val xpMods: XpModifiers) : PluginSc
         player.statAdvance(stats.fletching, xp)
 
         if (setsToMake > 1) {
-            weakQueue(queues.make_item, 3, Triple(setsToMake - 1, ammo, secondary))
+            weakQueue(queues.fletch_ammo, 3, Triple(setsToMake - 1, ammo, secondary))
         }
     }
 

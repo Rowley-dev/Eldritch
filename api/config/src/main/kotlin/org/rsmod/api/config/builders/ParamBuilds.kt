@@ -14,6 +14,7 @@ import org.rsmod.game.type.hitmark.HitmarkType
 import org.rsmod.game.type.loc.LocType
 import org.rsmod.game.type.npc.NpcType
 import org.rsmod.game.type.obj.ObjType
+import org.rsmod.game.type.obj.UnpackedObjType
 import org.rsmod.game.type.proj.ProjAnimType
 import org.rsmod.game.type.seq.SeqType
 import org.rsmod.game.type.spot.SpotanimType
@@ -134,6 +135,7 @@ internal object ParamBuilds : ParamBuilder() {
         build<SeqType>("skill_anim")
         build<Int>("skill_xp")
         build<ObjType>("skill_productitem")
+        build<List<ObjType>>("skill_productitem_list")
         build<SynthType>("skill_sound")
 
         build<Int>("deplete_chance")

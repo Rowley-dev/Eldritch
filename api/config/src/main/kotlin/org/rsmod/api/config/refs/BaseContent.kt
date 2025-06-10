@@ -63,4 +63,5 @@ object BaseContent : ContentReferences() {
     val fletching_arrowhead = find("fletching_arrowhead")
     val fletching_dart = find("fletching_dart")
     val fletching_javelin = find("fletching_javelin_head")
+    val fletchable_log = find("fletchable_log")
 }

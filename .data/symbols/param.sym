@@ -162,6 +162,7 @@
 32000	coord_grid_general
 32001	replacement_item_id
 32002	glory_charges
+32003	skill_productitem_list
 
 65386	graceful_restore_rate
 65387	prayer_drain_effect

@@ -14,6 +14,7 @@ import org.rsmod.game.type.loc.LocType
 import org.rsmod.game.type.midi.MidiType
 import org.rsmod.game.type.npc.NpcType
 import org.rsmod.game.type.obj.ObjType
+import org.rsmod.game.type.seq.SeqType
 import org.rsmod.game.type.stat.StatType
 import org.rsmod.map.CoordGrid
 
@@ -198,6 +199,19 @@ public interface DbColumnCodec<T, R> {
         }
 
         override fun encode(value: MidiType): List<Int> {
+            return listOf(value.id)
+        }
+    }
+
+    public object SeqTypeCodec : BaseIntCodec<SeqType> {
+        override val types: List<CacheVarLiteral> = listOf(CacheVarLiteral.SEQ)
+
+        override fun decode(iterator: Iterator<Int, SeqType>, types: TypeListMap): SeqType {
+            val type = iterator.next()
+            return types.seqs.getValue(type).toHashedType()
+        }
+
+        override fun encode(value: SeqType): List<Int> {
             return listOf(value.id)
         }
     }

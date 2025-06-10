@@ -269,4 +269,5 @@ object BaseSeqs : SeqReferences() {
     val emote_varlamore_salute_loop = find("emote_varlamore_salute_loop", 5016367684387565325)
 
     val cow_update_graze = find("cow_update_graze", 1478576823858649669)
+    val human_fletching = find("human_fletching", 1396217663673896270)
 }

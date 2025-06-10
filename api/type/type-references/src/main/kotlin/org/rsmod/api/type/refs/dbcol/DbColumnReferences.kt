@@ -15,6 +15,7 @@ import org.rsmod.game.type.loc.LocType
 import org.rsmod.game.type.midi.MidiType
 import org.rsmod.game.type.npc.NpcType
 import org.rsmod.game.type.obj.ObjType
+import org.rsmod.game.type.seq.SeqType
 import org.rsmod.game.type.stat.StatType
 import org.rsmod.map.CoordGrid
 
@@ -74,6 +75,10 @@ public abstract class DbColumnReferences :
 
     public fun midi(internal: String): DbValueColumn<Int, MidiType> {
         return value(internal, DbColumnCodec.MidiTypeCodec)
+    }
+
+    public fun seq(internal: String): DbValueColumn<Int, SeqType> {
+        return value(internal, DbColumnCodec.SeqTypeCodec)
     }
 
     public fun npc(internal: String): DbValueColumn<Int, NpcType> {

@@ -10,6 +10,7 @@ import org.rsmod.api.config.aliases.ParamHeadbar
 import org.rsmod.api.config.aliases.ParamHitmark
 import org.rsmod.api.config.aliases.ParamInt
 import org.rsmod.api.config.aliases.ParamLoc
+import org.rsmod.api.config.aliases.ParamNamedObj
 import org.rsmod.api.config.aliases.ParamNpc
 import org.rsmod.api.config.aliases.ParamObj
 import org.rsmod.api.config.aliases.ParamProj
@@ -192,6 +193,7 @@ object BaseParams : ParamReferences() {
     val deplete_chance: ParamInt = find("deplete_chance")
     val skill_sound: ParamSynth = find("skill_sound")
     val skill_productitem: ParamObj = find("skill_productitem")
+    val skill_productitem_list: ParamObj = find("skill_productitem_list")
     val skill_xp: ParamInt = find("skill_xp")
     val skill_anim: ParamSeq = find("skill_anim")
     val game_message: ParamStr = find("game_message")
