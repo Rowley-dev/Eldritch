@@ -4,11 +4,11 @@ import org.rsmod.api.config.refs.content
 import org.rsmod.api.config.refs.params
 import org.rsmod.api.player.protect.ProtectedAccess
 import org.rsmod.api.player.stat.fletchingLvl
-import org.rsmod.api.type.refs.content.ContentReferences
 import org.rsmod.api.type.refs.seq.SeqReferences
 import org.rsmod.content.skils.fletching.ammo.bolt.finished_bolts
 import org.rsmod.content.skils.fletching.ammo.bolt.unfinished_bolts
-import org.rsmod.game.type.obj.ObjType
+import org.rsmod.content.skils.fletching.ammo.dart.dart_tips
+import org.rsmod.content.skils.fletching.ammo.dart.finished_darts
 import org.rsmod.game.type.obj.UnpackedObjType
 import org.rsmod.game.type.obj.isType
 import org.rsmod.game.type.seq.SeqType
@@ -42,6 +42,7 @@ internal object FletchingSeqs : SeqReferences() {
     val human_fletching_add_dart_feathers_adamant = find("human_fletching_add_dart_feathers_adamant")
     val human_fletching_add_dart_feathers_rune = find("human_fletching_add_dart_feathers_rune")
     val human_fletching_add_dart_feathers_dragon = find("human_fletching_add_dart_feathers_dragon")
+    val human_fletching_add_dart_feathers_amethyst = find("human_fletching_add_dart_feathers_amethyst")
 }
 
 internal fun ProtectedAccess.getFletchingSeq(
@@ -65,6 +66,14 @@ internal fun ProtectedAccess.getFletchingSeq(
         type.isType(finished_bolts.rune_bolts) -> fletching_seqs.human_fletching_add_bolt_tips_rune
         type.isType(finished_bolts.dragon_bolts) -> fletching_seqs.human_fletching_add_bolt_tips_dragon
         type.isType(finished_bolts.blurite_bolts) -> fletching_seqs.human_fletching_add_bolt_tips_blurite
+        type.isType(finished_darts.bronze_darts) -> fletching_seqs.human_fletching_add_dart_feathers_bronze
+        type.isType(dart_tips.iron_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_iron
+        type.isType(dart_tips.steel_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_steel
+        type.isType(dart_tips.mithril_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_mithril
+        type.isType(dart_tips.adamant_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_adamant
+        type.isType(dart_tips.rune_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_rune
+        type.isType(dart_tips.dragon_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_dragon
+        type.isType(dart_tips.amethyst_dart_tips) -> fletching_seqs.human_fletching_add_dart_feathers_amethyst
         else -> fletching_seqs.human_fletching_add_arrowhead
     }
 }
