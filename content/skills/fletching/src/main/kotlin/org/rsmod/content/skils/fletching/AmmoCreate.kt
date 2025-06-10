@@ -13,6 +13,8 @@ import org.rsmod.api.stats.xpmod.XpModifiers
 import org.rsmod.content.skils.fletching.ammo.arrow.arrowheads
 import org.rsmod.content.skils.fletching.ammo.arrow.arrows
 import org.rsmod.content.skils.fletching.ammo.bolt.*
+import org.rsmod.content.skils.fletching.ammo.javelin.javelin_heads
+import org.rsmod.content.skils.fletching.ammo.javelin.javelin_shafts
 import org.rsmod.game.entity.Player
 import org.rsmod.game.type.obj.UnpackedObjType
 import org.rsmod.plugin.scripts.PluginScript
@@ -30,6 +32,10 @@ class AmmoCreate @Inject constructor(private val xpMods: XpModifiers) : PluginSc
             createAmmoDialogue(it.first, it.second)
         }
         onOpHeldU(content.fletching_dart, objs.feather) {
+            createAmmoDialogue(it.first, it.second)
+        }
+
+        onOpHeldU(content.fletching_javelin, javelin_shafts.javelin_shaft) {
             createAmmoDialogue(it.first, it.second)
         }
         onOpHeldU(bolt_tips.jade_bolt_tips, finished_bolts.blurite_bolts) {
