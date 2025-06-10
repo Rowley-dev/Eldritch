@@ -2883,7 +2883,6 @@ public class ProtectedAccess(
     ): Int {
         require(choices.size <= 10) { "Can only have up to 10 `choices`. (size=${choices.size})" }
         val choiceNames = choices.map { ocName(it) }
-        mes(choiceNames.joinToString("|"))
         val hoverNames = choiceNames.joinToString("|")
         val title = "$title|$hoverNames"
         val obj1 = choices.getOrNull(0)?.id

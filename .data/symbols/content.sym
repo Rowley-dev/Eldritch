@@ -51,6 +51,7 @@
 32001	amulet_of_glory
 32002	amulet_of_glory_uncharged
 32003	fletching_arrowhead
-32004	fletching_dart_tip
-32005	fletching_bolt_tip
+32004	fletching_bolt
+32005	fletching_dart
 32006	fletching_unstrung_bow
+32007	fletching_bolt_tip
