@@ -1,4 +1,4 @@
-package org.rsmod.content.skils.fletching
+package org.rsmod.content.skils.fletching.ammo
 
 import org.rsmod.api.config.refs.content
 import org.rsmod.api.config.refs.params

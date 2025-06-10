@@ -1,9 +1,14 @@
-package org.rsmod.content.skils.fletching
+package org.rsmod.content.skils.fletching.ammo
 
 import jakarta.inject.Inject
-import org.rsmod.api.config.Constants.dm_invspace
+import org.rsmod.api.config.Constants
 import org.rsmod.api.config.objXpParam
-import org.rsmod.api.config.refs.*
+import org.rsmod.api.config.refs.content
+import org.rsmod.api.config.refs.objs
+import org.rsmod.api.config.refs.params
+import org.rsmod.api.config.refs.queues
+import org.rsmod.api.config.refs.stats
+import org.rsmod.api.config.refs.varps
 import org.rsmod.api.player.protect.ProtectedAccess
 import org.rsmod.api.player.stat.statAdvance
 import org.rsmod.api.player.vars.intVarp
@@ -12,8 +17,9 @@ import org.rsmod.api.script.onPlayerQueueWithArgs
 import org.rsmod.api.stats.xpmod.XpModifiers
 import org.rsmod.content.skils.fletching.ammo.arrow.arrowheads
 import org.rsmod.content.skils.fletching.ammo.arrow.arrows
-import org.rsmod.content.skils.fletching.ammo.bolt.*
-import org.rsmod.content.skils.fletching.ammo.javelin.javelin_heads
+import org.rsmod.content.skils.fletching.ammo.bolt.bolt_tips
+import org.rsmod.content.skils.fletching.ammo.bolt.finished_bolts
+import org.rsmod.content.skils.fletching.ammo.bolt.unfinished_bolts
 import org.rsmod.content.skils.fletching.ammo.javelin.javelin_shafts
 import org.rsmod.game.entity.Player
 import org.rsmod.game.type.obj.UnpackedObjType
@@ -134,7 +140,7 @@ class AmmoCreate @Inject constructor(private val xpMods: XpModifiers) : PluginSc
             return false
         }
         if (!hasRoom(ammo)) {
-            mes(dm_invspace)
+            mes(Constants.dm_invspace)
             return false
         }
         return true
