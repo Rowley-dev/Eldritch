@@ -8,6 +8,7 @@ import org.rsmod.game.stat.PlayerStatMap
 
 internal typealias finished_javelins = FinishedJavelinObjs
 internal typealias javelin_heads = JavelinHeadObjs
+internal typealias javelin_shafts = JavelinShaftObjs
 
 internal object FinishedJavelinObjs : ObjReferences() {
     val bronze_javelins = find("bronze_javelin")
